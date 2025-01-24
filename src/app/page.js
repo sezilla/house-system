@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Button } from "@/components/ui/button"
 
 export default function Home() {
   return (
@@ -13,6 +14,9 @@ export default function Home() {
             priority
           />
           <h1 className="text-2xl font-bold">My Landing Page</h1>
+        </div>
+        <div>
+          <Button href="/login">Click me</Button>
         </div>
         <a
           className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
